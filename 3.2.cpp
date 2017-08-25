@@ -1,8 +1,4 @@
-/* Написать программу шифрования и дешифрования сообщений указанным методом.
-Зашифровать текст следующим образом: записать сообщение в матрицу по спирали против часовой стрелки, начиная снаружи. Записать в строку результат построчного прочитывания матрицы. Размер матрицы зависит от длины сообщения.
-Дешифровать текст.
-
-Write a program for encrypting and decrypting messages using the specified method.
+/* Write a program for encrypting and decrypting messages using the specified method.
 Encrypt the text as follows: write a message into the matrix in a spiral counter-clockwise, starting from the outside. Write the result of line-by-line matrix reading into the string. The size of matrix depends on length of a message.
 Decrypt the text.
 
@@ -30,7 +26,7 @@ int main(void)
 
 	while(!quitting)
 	{
-Menu:	printf("\nTo encrypt a message press \"1\"\nTo decrypt a message press \"0\"\nTo exit press \"е\"\n\n");
+Menu:	printf("\nTo encrypt a message press \"1\"\nTo decrypt a message press \"0\"\nTo exit press \"ГҐ\"\n\n");
 		fflush(stdin);
 		switch(getchar())
 		{
